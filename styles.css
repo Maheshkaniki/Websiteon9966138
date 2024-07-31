@@ -1,0 +1,159 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #333;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.header {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo i {
+    margin-right: 10px;
+}
+
+.header .nav {
+    display: flex;
+    align-items: center;
+}
+
+.header .nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header .nav a i {
+    margin-right: 5px;
+}
+
+.header .nav a:hover {
+    text-decoration: underline;
+}
+
+.header .user-profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header .user-profile i {
+    margin-right: 5px;
+}
+
+aside {
+    background-color: #fff;
+    width: 200px;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    height: 100vh;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    overflow-y: auto;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside### Final CSS (Continued)
+
+```css
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 15px;
+}
+
+aside ul li a {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+aside ul li a i {
+    margin-right: 10px;
+}
+
+aside ul li a:hover {
+    color: #4a90e2;
+}
+
+main {
+    margin-left: 220px;
+    padding: 80px 20px 20px 20px;
+    flex: 1;
+}
+
+main section {
+    margin-bottom: 40px;
+}
+
+main section h1, main section h2 {
+    color: #4a90e2;
+}
+
+main .card {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+main .card h2, main .card h3 {
+    margin-top: 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
